@@ -167,8 +167,8 @@ function LeftPanel() {
     <div
       id="left-panel"
       style={{
-        display: "none", // hidden by default (like hidden)
-        width: "50%", // lg:w-1/2
+        display: "none", 
+        width: "50%",
         position: "relative", // relative
         overflow: "hidden", // overflow-hidden
       }}
