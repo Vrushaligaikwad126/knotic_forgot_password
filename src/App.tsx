@@ -271,8 +271,8 @@ const email = params.get("email");
   const iconStyle: React.CSSProperties = {
     position: "absolute",
     left: 14,
-    top: "50%",
-    transform: "translateY(-50%)",
+    top: 22,
+    transform: "none",
     pointerEvents: "none",
     display: "flex",
     alignItems: "center",
@@ -281,8 +281,8 @@ const email = params.get("email");
   const eyeBtnStyle: React.CSSProperties = {
     position: "absolute",
     right: 12,
-    top: "50%",
-    transform: "translateY(-50%)",
+    top: 22,
+    transform: "none",
     background: "none",
     border: "none",
     cursor: "pointer",
@@ -431,7 +431,7 @@ const email = params.get("email");
               </p>
               {/* 🔁 Replace YOUR_LOGIN_URL with your actual app login page */}
               <a
-                href="YOUR_LOGIN_URL"
+                href="https://knotiq.io/login"
                 style={{
                   display: "block",
                   width: "100%",
