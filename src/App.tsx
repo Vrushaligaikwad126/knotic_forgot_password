@@ -221,7 +221,7 @@ export default function App() {
     try {
       setLoading(true);
       const response = await fetch(
-        "https://ioweb3.io/knotiqapi/user/resetPassword",
+        "https://ioweb3.io/knotiqapi/user/passwordReset",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
