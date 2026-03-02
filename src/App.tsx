@@ -191,6 +191,7 @@ function LeftPanel() {
 export default function App() {
   const params = new URLSearchParams(window.location.search);
   const token = params.get("token");
+const email = params.get("email");
 
   const [password, setPassword] = useState("");
   const [confirm, setConfirm] = useState("");
@@ -225,7 +226,7 @@ export default function App() {
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ token, newPassword: password }),
+          body: JSON.stringify({ token, email , newPassword: password }),
         },
       );
       const data = await response.json();
