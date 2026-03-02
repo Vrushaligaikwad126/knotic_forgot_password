@@ -2,11 +2,11 @@ import { useState } from "react";
 
 const BirdSVG = () => <img src="/assets/bird.svg" alt="" />;      
 const YachtTopSVG = () => <img src="/assets/topYacht.svg" alt="" />; 
-const LineSVG = () => <img src="/assets/line.svg" alt="" />;        // ✅ line.svg
-const TreeSVG = () => <img src="/assets/tree.svg" alt="" />;        // ✅ tree.svg
-const ShipSVG = () => <img src="/assets/ship.svg" alt="" />;        // ✅ ship.svg
-const FishSVG = () => <img src="/assets/fish.svg" alt="" />;        // ✅ fish.svg
-const LockSVG = () => <img src="/assets/lock.svg" alt="" />;        // ✅ lock.svg
+const LineSVG = () => <img src="/assets/line.svg" alt="" />;        
+const TreeSVG = () => <img src="/assets/tree.svg" alt="" />;       
+const ShipSVG = () => <img src="/assets/ship.svg" alt="" />;       
+const FishSVG = () => <img src="/assets/fish.svg" alt="" />;        
+const LockSVG = () => <img src="/assets/lock.svg" alt="" />;      
 
 const EyeSVG = () => (
   <svg
